@@ -1,0 +1,44 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+*.dist-info/
+.eggs/
+pip-wheel-metadata/
+
+# SDK evaluation outputs and local history
+.aicomp/
+artifacts/
+submission.csv
+submission.parquet
+submission_details.json
+transcript.log
+framework.jsonl
+agent-debug.jsonl
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+.pytest_cache/
+.idea/
+.vscode/
+
